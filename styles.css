@@ -1,0 +1,122 @@
+body {
+    color: black;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: monospace, serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+li {
+    font-family: monospace, serif;
+}
+
+h1.main-header {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+    background-color: cornsilk;
+    }
+
+
+/* COLOURS SECTION */
+.color-box {
+    text-align: center;
+}
+.color1, .color2, .color3, .color4 {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 20px 20px;
+    min-height: 100px;
+    font-family: monospace, serif; 
+}
+.color1 {
+    background-color: #00AFC1;
+}
+
+.color2 {
+    background-color: #FFD124;
+}
+
+.color3 {
+    background-color: #A63EC5;
+}
+
+.color4 {
+    background-color: #00C897;
+}
+
+/* FONTS SECTION */
+
+.fonts-box {
+    text-align: center;
+}
+
+.square-peg, .nunito, .source-serif-pro {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 100px;
+    vertical-align: top;
+}
+
+.square-peg, .square-peg-bold, .square-peg-italic {
+    font-family: 'Square Peg', cursive; 
+    font-size: 25px;
+    line-height: 0.5em;
+}
+
+
+.square-peg-bold {
+    font-weight: 700;
+}
+
+.square-peg-italic {
+    font-style: italic;
+}
+
+.nunito, .nunito-bold, .nunito-italic {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nunito-bold {
+    font-weight: 700;
+}
+
+.nunito-italic {
+    font-style: italic;
+}
+
+.source-serif-pro, .source-serif-pro-bold, .source-serif-pro-italic {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.source-serif-pro-bold {
+    font-weight: 700;
+}
+
+.source-serif-pro-italic {
+    font-style: italic;
+}
+
+/*TEXT STYLES*/
+span.nunito-font {
+    font-family: 'Nunito';
+}
+span.source-serif-pro-font {
+    font-family: 'Source Serif Pro';
+}
+.text-styles h2 {
+    text-align: center;
+}
